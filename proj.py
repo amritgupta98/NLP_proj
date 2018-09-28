@@ -52,4 +52,3 @@ for i in range(0, 5575):
     token = word_tokenize(message)
     for j in range(len(token)):
         dict_all[token[j]] = token.count(token[j])
-    t = len(token)
